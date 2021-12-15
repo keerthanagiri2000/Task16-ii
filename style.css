@@ -1,0 +1,329 @@
+.container{
+    display: grid;
+    height: 450vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr 1.5fr 1.8fr 0.6fr 0.7fr 0.5fr 1.3fr 0.5fr 1.7fr 1fr;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "main main main main"
+    "side1 side1 image image"
+    "side2 side2 image image"
+    "button button button button"
+    "quotes quotes quotes quotes"
+    "horiline1 horiline1 horiline1 horiline1"
+    "content1 content2 content3 content4"
+    "horiline2 horiline2 horiline3 horiline3"
+    "poetry poetry poems poems"
+    "footer footer1 footer2 footer2";
+}
+nav{
+    background: rgb(27, 30, 31);
+    grid-area: nav;
+    
+}
+.nav-ul{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(138, 137, 137);
+}
+.nav-li{
+    width: 80px;
+    
+}
+main{
+    background: rgb(27, 30, 31);
+    grid-area: main;
+}
+.side1{
+    background: rgb(255, 255, 255);
+    grid-area: side1;
+    width:420px;
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.side2{
+    background: rgb(255, 255, 255);
+    grid-area: side2;
+    width:420px;
+    height: 300px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.image{
+    background:white;
+    grid-area: image;
+}
+.div-1-button{
+    background-color: rgb(254, 254, 255);
+    grid-area: button;
+    margin-left: 420px;
+}
+.quotes{
+    background: rgb(37, 36, 36);
+    grid-area: quotes;
+}
+.horiline1{
+    background: rgb(255, 255, 255);
+    grid-area: horiline1;
+    margin-top: 10px;
+}
+.content1{
+    border: 1px solid rgb(218, 216, 216);
+    grid-area: content1;
+    width: 230px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top:60px ;
+    border-radius: 5px;
+}
+.content2{
+    border: 1px solid rgb(218, 216, 216);
+    grid-area: content2;
+    width: 230px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top:60px ;
+    border-radius: 5px;
+}
+
+.content3{
+    border: 1px solid rgb(218, 216, 216);
+    grid-area: content3;
+    width: 230px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top:60px ;
+    border-radius: 5px;
+}
+.content4{
+    border: 1px solid rgb(218, 216, 216);
+    grid-area: content4;
+    width: 230px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top:60px ;
+    border-radius: 5px;
+}
+.horiline2{
+    
+    grid-area: horiline2;
+    
+}
+.horiline3{
+    
+    grid-area: horiline3;
+    
+}
+.poetry{
+    
+    grid-area: poetry;
+    
+}
+.poems{
+    
+    grid-area: poems;
+}
+footer{
+    background: rgb(31, 32, 29);
+    grid-area: footer;
+    border: 1px solid rgb(88, 86, 86);
+    
+}
+.footer1{
+    background: rgb(31, 32, 29);
+    grid-area: footer1;
+    border: 1px solid rgb(88, 86, 86);
+    
+}
+.footer2{
+    background:rgb(31, 32, 29);
+    grid-area: footer2;
+}
+.div-main{
+    text-align: center;
+    color: white;
+}
+.main-h1{
+    margin-top: 210px;
+    font-size: 60px;
+}
+.div-side1-p{
+    font-size: 14px;
+
+}
+.div-side2-p{
+    font-size: 14px;
+}
+.div-image{
+    width: 320px;
+    height: 450px;
+    margin-left: 170px;
+    margin-top: 90px;
+}
+.button-1{
+    border: 2px solid transparent;
+    background-color: rgb(187, 183, 183);
+    border-radius: 3px;
+    width: 140px;
+    height: 33px;
+    color: rgb(105, 92, 92);
+    
+}
+.button-2{
+    border:2px solid transparent;
+    background-color: rgb(224, 59, 59);
+    border-radius: 3px;
+    width: 100px;
+    height: 33px;
+    color: rgb(228, 212, 212);
+}
+.button-3{
+    border:2px solid transparent;
+    background-color: rgb(236, 144, 57);
+    border-radius: 3px;
+    width: 100px;
+    height: 33px;
+    color: rgb(228, 212, 212);
+}
+.div-quotes-h2{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(204, 201, 201);
+}
+h3{
+    width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid rgb(201, 202, 200); 
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+   margin-top: 40px;
+}
+   
+   h3 span { 
+    background:#fff; 
+    padding:0 10px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(83, 82, 82);
+}
+.content-1-p1{
+    margin: 2px;
+    padding: 2px;
+    font-weight: bold;
+    
+    
+}
+.content-1-p2{
+    margin: 2px;
+    padding: 2px;
+    font-size: 12px;
+    color: rgb(82, 77, 77);
+}
+.content-1-p3{
+
+    margin: 2px;
+    padding: 2px;
+    font-size: 13px;
+    color: rgb(109, 105, 105);
+}
+.content-2-p1{
+    margin: 2px;
+    padding: 2px;
+    font-weight: bold;
+}
+.content-2-p2{
+    margin: 2px;
+    padding: 2px;
+    font-size: 12px;
+    color: rgb(82, 77, 77);
+}
+.content-2-p3{
+
+    margin: 2px;
+    padding: 2px;
+    font-size: 13px;
+    color: rgb(109, 105, 105);
+}
+.content-3-p1{
+    margin: 2px;
+    padding: 2px;
+    font-weight: bold;
+}
+.content-3-p2{
+    margin: 2px;
+    padding: 2px;
+    font-size: 12px;
+    color: rgb(82, 77, 77);
+}
+.content-3-p3{
+
+    margin: 2px;
+    padding: 2px;
+    font-size: 13px;
+    color: rgb(109, 105, 105);
+}
+.content-4-p1{
+    margin: 2px;
+    padding: 2px;
+    font-weight: bold;
+}
+.content-4-p2{
+    margin: 2px;
+    padding: 2px;
+    font-size: 12px;
+    color: rgb(82, 77, 77);
+}
+.content-4-p3{
+
+    margin: 2px;
+    padding: 2px;
+    font-size: 13px;
+    color: rgb(109, 105, 105);
+}
+.poetry-li{
+    font-size: 14px;
+}
+.poems-li{
+    font-size: 14px;
+}
+.foo-p1{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.foo-p2{
+    font-size: 14px;
+     margin-left: 10px;
+     color: rgb(212, 204, 204);
+}
+.foo1-p1{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.foo1-p2{
+    font-size: 14px;
+     margin-left: 10px;
+     color: rgb(122, 121, 121);
+}
+.foo2-p1{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+.foo2-p2{
+    font-size: 14px;
+     margin-left: 10px;
+     color: rgb(212, 204, 204);
+}
+.span1{
+    color: blue;
+}
+
